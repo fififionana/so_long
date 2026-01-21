@@ -29,7 +29,7 @@ int	ft_exit_program(t_game_instance *game_init)
 // Function to free() and reset the game (start in the same point)
 void	ft_reset_game(t_game_instance *game_init)
 {
-	ft_printf("\nThe game has been reset, good luck.\n");
+	ft_printf("\nGame: reseted. Better luck this time.\n");
 	ft_free_img(game_init);
 	ft_free_map(game_init);
 	free(game_init->resolutions_init.settings_name_window);
